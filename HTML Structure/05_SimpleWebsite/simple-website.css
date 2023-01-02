@@ -42,11 +42,11 @@ a {
 }
 
 footer {
-    padding: 10px;
     background-color: #444;
 }
 
-footer > p {
+footer p {
+    padding: 10px;
     text-align: center;
     color: #fff;
 }
