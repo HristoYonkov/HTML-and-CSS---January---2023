@@ -1,13 +1,26 @@
 ------------------------POZITIONING ELEMENTS------------------------
+
 1 - static => Cant use top, bottom, left, right properties in css!
 2 - relative => Same position, and saves original place, but u can use top, bottom, left, right properties in css, and leave empty space on original position!
 3 - absolute => Use position of parent element different from "static" starts on top left corner, also most of cases we need to defined their width!
 4 - fixed => Positioned acording to the browser screen: navbars, browse top buttons and etc..!
 5 - sticky => Positioned according to the element stick on the parent borders or browser screen (when scrolling). Also is looking for a parent scroll and stick on the parent element borders.
-
 - difference between '%' and 'vh' => '%' is positioning base on the parent!
 - transform: translate(-50%, -50%); => position the element -50% of it's sizes - (X, Y)!
-- z-index => works only if position is different from static!
+- z-index: => works only if position is different from static!
 - z-index: if z-indexes properties works in the scope of his parent with 'z-index' they are working only for this scope! 
 
 --------------------------------GRID--------------------------------
+
+- gap: 1rem; => Margins between rows and columns!
+1 - display: grid => Initializes a grid sections inside the element.
+2 - grid-template-columns: repeat(3, 1fr) => Add 3 columns, divide the elements by 3 parts of the screen responsive!
+3 - grid-template-rows: repeat(3, 200px) => Add 3 rows,
+4 - grid-row: 1 / 4;, grid-column: 2 / 3;  => On selected items, define where the items should stay, fisrst case from first cell to the forth excluded and so on..
+5 - grid-template-areas: => Drawing a grid area that is constructed from variables;
+6 - grid-area: => In selected elements we put variables according to the drawed grid area to construc the actual area!
+- We use '.' dots for empty grid cells.
+
+--------------------------------FLOAT-------------------------------
+- For example: Nesting image into text.
+- Care with floats use 'clearfix' approach, or 'overflow: auto;'!
