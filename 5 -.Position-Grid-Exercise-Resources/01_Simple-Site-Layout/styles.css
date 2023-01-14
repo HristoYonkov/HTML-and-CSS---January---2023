@@ -6,6 +6,7 @@ body {
         'footer footer footer'
     ;
     gap: 10px;
+    /* grid-template-columns: 100px auto; */
 }
 
 header, aside, main, footer {
