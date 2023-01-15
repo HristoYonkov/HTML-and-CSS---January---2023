@@ -45,6 +45,84 @@ article {
     position: relative;
     width: 70%;
 }
-article header img {
+
+h3, h2, h1 {
+    font-family: Georgia, serif;
+}
+
+.first {
+    overflow: auto;
+}
+
+.first img {
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    margin: 0 0 15px 15px;
     float: right;
+}
+
+.second {
+    overflow: auto;
+}
+
+.second img {
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    margin: 0px 15px 15px 0;
+    float: left;
+}
+
+.blockquote {
+    overflow: auto;
+    width: 100%;
+}
+
+.blockquote p {
+    display: inline;
+    width: 100%;
+}
+
+.bc {
+    display: block;
+    width: 40%;
+    font-size: 15px;
+    border-left: 2px solid grey;
+    font-style: oblique;
+    float: right;
+    margin: 0 0 20px 20px;
+    padding: 0 0 20px 20px;
+}
+
+.blockquot {
+    font-family: Georgia, serif;
+}
+
+.bc blockquote {
+    margin: 0 0 20px 0;
+}
+.bc span {
+    margin-left: 40%;
+}
+main {
+    position: relative;
+}
+aside {
+    position: absolute;
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    top: 10%;
+    right: 0%;
+}
+.sectOne nav ul {
+    position: inherit;
+    margin-bottom: 10px;
+}
+
+.sectTwo  nav ul {
+    position: inherit;
 }
