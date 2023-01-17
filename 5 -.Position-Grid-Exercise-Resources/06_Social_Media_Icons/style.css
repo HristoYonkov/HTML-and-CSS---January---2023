@@ -1,0 +1,40 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+ul {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 30px;
+    color: black;
+}
+
+li:nth-child(1) a:hover {
+    color: rgb(83, 83, 238);
+}
+
+li:nth-child(2) a:hover {
+    color: rgb(36, 36, 239);
+}
+
+li:nth-child(3) a:hover {
+    color: rgb(200, 47, 47);
+}
+
+li:nth-child(4) a:hover {
+    color: rgb(37, 141, 215);
+}
+
+li:nth-child(5) a:hover {
+    color: rgb(114, 176, 221);
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
