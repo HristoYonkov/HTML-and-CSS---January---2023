@@ -1,5 +1,4 @@
 ------------------------POZITIONING ELEMENTS------------------------
-
 1 - static => Cant use top, bottom, left, right properties in css!
 2 - relative => Same position, and saves original place, but u can use top, bottom, left, right properties in css, and
 leave empty space on original position!
@@ -12,26 +11,30 @@ need to defined their width!
 is looking for a parent scroll and stick on the parent element borders.
 
 - difference between '%' and 'vh' => '%' is positioning base on the parent!
-- transform: translate(-50%, -50%); => position the element -50% of it's sizes - (X, Y)!
-- z-index: => works only if position is different from static!
+- [transform: translate(-50%, -50%);] => position the element -50% of it's sizes - (X, Y)!
+- [z-index: 1;] => works only if position is different from static!
 - z-index: if z-indexes properties works in the scope of his parent with 'z-index' they are working only for this scope!
-- object-fit: cover; => Adjusting the image bigger then the container according to the space!
-- object-position: top, right; => Adjusting the imaje bigger then the container according to the directions!
---------------------------------GRID--------------------------------
+- [object-fit: cover;] => Adjusting the image bigger then the container according to the space!
+- [object-position: top, right;] => Adjusting the imaje bigger then the container according to the directions!
 
-1 - display: grid => Initializes a grid sections inside the element.
-2 - grid-template-columns: repeat(3, 1fr) => Add 3 columns, divide the elements by 3 parts of the screen responsive!
-3 - grid-template-rows: repeat(3, 200px) => Add 3 rows,
-4 - grid-row: 1 / 4;, grid-column: 2 / 3; => On selected items, define where the items should stay, fisrst case from
+--------------------------------GRID--------------------------------
+1 - [display: grid;] => Initializes a grid sections inside the element.
+2 - [grid-template-columns: repeat(3, 1fr);] => Add 3 columns, divide the elements by 3 parts of the screen responsive!
+3 - [grid-template-rows: repeat(3, 200px);] => Add 3 rows,
+4 - [grid-row: 1 / 4;], grid-column: 2 / 3; => On selected items, define where the items should stay, fisrst case from
 first cell to the forth excluded and so on..
 
-5 - grid-template-areas: => Drawing a grid area that is constructed from variables;
-6 - grid-area: => In selected elements we put variables according to the drawed grid area to construc the actual area!
+5 - [grid-template-areas: 'var var var';] => Drawing a grid area that is constructed from variables;
+6 - [grid-area: 'var';] => In selected elements we put variables according to the drawed grid area to construc the actual area!
 
-- gap: 1rem; => Margins between rows and columns!
+- [gap: 1rem;] => Margins between rows and columns!
 - We use '.' dots for empty grid cells.
 
 --------------------------------FLOAT-------------------------------
-1 - float: right; => Nesting image (files) into text.
+1 - [float: right;] => Nesting image (files) into text.
 - Care with floats they are going out from the borders use 'clearfix' approach, or 'overflow: auto;' on container of the
 picture!
+
+--------------------------------FLEX--------------------------------
+1 - [align-self: flex-start;] => Arrange single item vertically "top, middle or bottom".
+2 - [flex: 0 1 auto;] => unites therse methods "flex-grow: 0;, flex-shrink: 1;, flex-basis: auto;".
