@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    padding: 100px;
+}
+
+body, ul, li {
+    display: flex;
+}
+
+ul {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+li {
+    border: 0.4rem solid #000;
+    width: 33%;
+    padding: 1rem;
+}
+
+img {
+    display: block;
+    object-fit:contain;
+    width: 100%;
+    height: auto;
+}
