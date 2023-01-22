@@ -10,5 +10,27 @@ body {
 .page {
     display: flex;
     flex-wrap: wrap;
+}
 
+.page .nav {
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.first {
+    width: 80%;
+}
+
+.first img {
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    margin: 0 0 15px 15px;
+    float: right;
 }
