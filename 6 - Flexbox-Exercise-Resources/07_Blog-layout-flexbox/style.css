@@ -10,6 +10,7 @@ body {
 .page {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .page .nav {
@@ -33,4 +34,70 @@ body {
     box-shadow: rgba(0, 0, 0, 0.25);
     margin: 0 0 15px 15px;
     float: right;
+}
+
+section {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+.blockquote {
+    display: flex;
+}
+
+.bc {
+    border-left: 2px solid lightgrey;
+}
+.blockquote p {
+    margin: 0 20px 0 0;
+    width: 50%;
+}
+
+.blockquote .bc {
+    width: 50%;
+}
+
+.blockquote .blockquot {
+    margin: 0 0 20px 20px;
+}
+
+.blockquot {
+    margin-top: 0;
+    font-family: Georgia, serif;
+}
+
+.bc span {
+    display: block;
+    text-align: right;
+}
+
+.second {
+    display: block;
+    width: 80%;
+    overflow: auto;
+}
+
+.second img {
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    margin: 0px 15px 15px 0;
+    float: left;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 10%;
+}
+
+.sectOne ul, .sectTwo ul {
+    list-style-type: square;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
 }
