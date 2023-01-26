@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    /* position: relative; */
+    /* margin: 0; */
+}
+
+footer {
+    position: sticky;
+    bottom: 0px;
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+    width: 100%;
+}

@@ -10,7 +10,7 @@ body {
 .page {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    position: relative;
 }
 
 .page .nav {
@@ -88,13 +88,20 @@ section {
 }
 
 aside {
+    position: absolute;
     display: flex;
     flex-wrap: wrap;
-    max-width: 10%;
+    max-width: 15%;
+    top: 100px;
+    right: 0px;
 }
 
 .sectOne ul, .sectTwo ul {
     list-style-type: square;
+}
+
+h3, h2 {
+    font-family: Georgia, serif;
 }
 
 a {
