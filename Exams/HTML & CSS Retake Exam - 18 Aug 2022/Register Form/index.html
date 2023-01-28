@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,38 @@
     <link rel="stylesheet" href="../../reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <form action="">
-        
-    </form>
+    <main>
+        <form action="">
+            <h1>REGISTRATION FORM</h1>
+            <div class="names">
+                <div class="names__first">
+                    <label for="f-name">First Name</label>
+                    <input type="text" id="f-name">
+                </div>
+
+                <div class="names__last">
+                    <label for="l-name">Last Name</label>
+                    <input type="text" id="l-name">
+                </div>
+            </div>
+    
+            <label for="email">Email</label>
+            <input type="text" id="email">
+    
+            <label for="pass">Password</label>
+            <input type="text" id="pass">
+            <label for="repass">Confirm Password</label>
+            <input type="text" id="repass">
+    
+            <div class="terms">
+                <input type="checkbox" id="checkbox" />
+                <label for="checkbox">I accept the Terms of Use & Privacy Policy.</label>
+            </div>
+            <button>REGISTER NOW</button>
+        </form>
+    </main>
 </body>
+
 </html>
