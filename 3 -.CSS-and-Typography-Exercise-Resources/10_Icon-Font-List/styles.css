@@ -1,27 +1,22 @@
-/* TODO: style the html */
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
-body {
-    font-family: Veranda, Geneva, Tahoma, sans-serif;
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
     font-size: 18px;
 }
-
-ul {
+ul{
     list-style-type: none;
 }
-
-ul.check i {
+ul.check i{
     color: #2fcc71;
     font-size: 25px;
 }
-
-ul.star i {
+ul.star i{
     color: coral;
     font-size: 25px;
 }
-
-ul.contact i {
+ul.contact i{
     color: #3498da;
     font-size: 25px;
 }
