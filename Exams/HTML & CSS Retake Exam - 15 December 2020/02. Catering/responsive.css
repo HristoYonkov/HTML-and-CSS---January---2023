@@ -1,1 +1,16 @@
 /* TODO: Add the responsive styles here */
+@media screen and (max-width: 600px) {
+    .w3-hide-small {
+        /* visibility: hidden => Cnanges only visible effect element stays there and take its place! */
+        /* visibility: hidden; */
+        display: none;
+    }
+
+    #about .w3-col.m6{
+        width: 100%;
+    }
+
+    #menu .w3-col.l6 {
+        width: 100%;
+    }
+}
