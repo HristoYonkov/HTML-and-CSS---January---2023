@@ -94,9 +94,61 @@ ul li a {
   text-align: center;
   font-size: 25px;
   line-height: 40px;
-  background-color: red;
+  background-color: #e24e2a;
 }
 
 .text-container p {
   color: lightgrey;
+}
+
+/* Icons */
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #383838;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+  align-items: center;
+}
+
+.icon-container:first-child {
+  margin-top: 20px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #e24e2a;
+  margin-bottom: 10px;
+}
+
+.icon-container i {
+  font-size: 50px;
+  text-align: center;
+}
+
+.icon-container h3 {
+  color: var(--clr-grey-ligh);
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.icon-container p {
+  padding-top: 20px;
+  border-top: 1px solid var(--clr-grey-txt);
+  text-align: center;
+  color: var(--clr-grey-txt);
 }
