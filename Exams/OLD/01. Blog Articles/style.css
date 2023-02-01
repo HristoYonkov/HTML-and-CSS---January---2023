@@ -1,0 +1,30 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+body {
+    background-color: #66b9f8;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 100%;
+    height: 60%;
+    padding: 25px;
+}
+
+.card {
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+.card img {
+    width: 100%;
+}
+
+.date {
+    display: inline-block;
+}
