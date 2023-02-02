@@ -77,11 +77,23 @@ header img {
 
 .blue {
     background: #66b9f8;
+    padding: 0px 100px 100px 100px;
+    border-top: 15px solid #92cdfb;
 }
 
 .blue .blue__text {
     text-align: center;
-    padding: 50px;
+    padding: 50px 200px;
+    color: white;
+}
+
+.blue__text h1 {
+    font-size: 60px;
+}
+
+.blue__text p {
+    font-size: 25px;
+    letter-spacing: 1px;
 }
 
 .inputs {
