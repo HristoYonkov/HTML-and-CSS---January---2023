@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
 header {
     display: flex;
     justify-content: space-between;
@@ -22,7 +24,10 @@ header img {
     height: auto;
 }
 
+/* Yellow Section */
+
 .yellow {
+    box-shadow: inset rgb(0 0 0 / 44%) 0px 1px 3px 0px;
     text-align: center;
     padding: 50px 500px 80px 500px;
     background: #ffb402;
@@ -123,4 +128,30 @@ button {
     color: white;
     letter-spacing: 2px;
     font-size: 20px;
+}
+
+footer {
+    border-top: 15px solid #919191;
+    background: #565656;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px 50px 50px 150px;
+    color: white;
+}
+
+footer section h1 {
+    margin-bottom: 20px;
+}
+
+footer section i {
+    font-size: 35px;
+}
+
+footer section i:last-of-type {
+    margin-left: 20px;
+}
+
+footer section p {
+    line-height:  40px;
+    font-size: 21px;
 }
