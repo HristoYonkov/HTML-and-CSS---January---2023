@@ -72,3 +72,37 @@ header img {
 .image-container {
     text-align: center;
 }
+
+/* Blue Section */
+
+.blue {
+    background: #66b9f8;
+}
+
+.blue .blue__text {
+    text-align: center;
+    padding: 50px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+.inputs input {
+    padding: 20px 50px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+::placeholder{
+    color: white;
+}
+
+button {
+    padding: 20px 40px;
+    margin-left: 20px;
+}
