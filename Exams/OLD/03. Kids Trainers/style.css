@@ -22,11 +22,6 @@ header img {
     height: auto;
 }
 
-/* main {
-    display: flex;
-    flex-direction: column;
-} */
-
 .yellow {
     text-align: center;
     padding: 50px 500px 80px 500px;
@@ -68,6 +63,7 @@ header img {
 
 .four {
     margin-top: 300px;
+    margin-bottom: 150px;
     display: flex;
     justify-content: center;
     gap: 130px;
