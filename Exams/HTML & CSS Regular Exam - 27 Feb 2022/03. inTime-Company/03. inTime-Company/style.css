@@ -37,9 +37,8 @@ header p span {
     position: absolute;
     bottom: 202px;
     left: 224px;
-    opacity: 0.7;
     padding: 20px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .img-container div h1 {
@@ -55,4 +54,5 @@ header p span {
     height: 70px;
     border-radius: 100px;
     font-size: 35px;
+    border: none;
 }
