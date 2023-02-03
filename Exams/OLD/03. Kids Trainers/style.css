@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
 header {
     display: flex;
     justify-content: space-between;
@@ -22,7 +24,10 @@ header img {
     height: auto;
 }
 
+/* Yellow Section */
+
 .yellow {
+    box-shadow: inset rgb(0 0 0 / 44%) 0px 1px 3px 0px;
     text-align: center;
     padding: 50px 500px 80px 500px;
     background: #ffb402;
@@ -77,11 +82,23 @@ header img {
 
 .blue {
     background: #66b9f8;
+    padding: 0px 100px 100px 100px;
+    border-top: 15px solid #92cdfb;
 }
 
 .blue .blue__text {
     text-align: center;
-    padding: 50px;
+    padding: 50px 200px;
+    color: white;
+}
+
+.blue__text h1 {
+    font-size: 60px;
+}
+
+.blue__text p {
+    font-size: 25px;
+    letter-spacing: 1px;
 }
 
 .inputs {
@@ -103,6 +120,38 @@ header img {
 }
 
 button {
-    padding: 20px 40px;
+    padding: 20px 45px;
     margin-left: 20px;
+    background-color: #ff9100;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+footer {
+    border-top: 15px solid #919191;
+    background: #565656;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px 50px 50px 150px;
+    color: white;
+}
+
+footer section h1 {
+    margin-bottom: 20px;
+}
+
+footer section i {
+    font-size: 35px;
+}
+
+footer section i:last-of-type {
+    margin-left: 20px;
+}
+
+footer section p {
+    line-height:  40px;
+    font-size: 21px;
 }
