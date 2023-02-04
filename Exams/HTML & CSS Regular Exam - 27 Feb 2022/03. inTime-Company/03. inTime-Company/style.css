@@ -147,3 +147,77 @@ header p span {
     font-size: 20px;
 }
 
+/* Section .input */
+
+.input {
+    background-color: #393f43;
+    padding: 40px 300px 50px 300px;
+    color: white;
+    text-align: center;
+}
+.input input {
+    width: 400px;
+    height: 40px;
+    font-style: italic;
+    font-size: 20px;
+    background-color: #545a5e;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+.input h1 {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.input p {
+    margin-bottom: 20px;
+}
+
+.input button {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 160px;
+    background-color: #6bbfff;
+}
+
+/* Contacts */
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2f3539;
+    color: white;
+    padding: 50px;
+}
+
+.contacts article h4 {
+    margin-bottom: 15px;
+}
+
+.contacts article p {
+    line-height: 30px;
+}
+
+.addres{
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #262b2f;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+footer span {
+    color: #0c85a9;
+}
