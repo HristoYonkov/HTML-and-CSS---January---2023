@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
 body {
     font-family: Helvetica, sans-serif;
 }
@@ -105,8 +107,14 @@ header p span {
 .services h1 {
     font-size: 38px;
     font-weight: 400;
-    padding-bottom: 20px;
     letter-spacing: 1px;
+}
+
+#greyLine {
+    margin-left: 47%;
+    border-top: 3px solid #464646;
+    width: 121px;
+    margin-bottom: 10px;
 }
 
 .cards {
@@ -149,6 +157,13 @@ header p span {
 
 /* Section .input */
 
+#whiteLine {
+    margin-left: 47%;
+    border-top: 2px solid white;
+    width: 83px;
+    margin-bottom: 15px;
+}
+
 .input {
     background-color: #393f43;
     padding: 40px 300px 50px 300px;
@@ -156,6 +171,7 @@ header p span {
     text-align: center;
 }
 .input input {
+    padding: 0;
     width: 400px;
     height: 40px;
     font-style: italic;
@@ -172,14 +188,15 @@ header p span {
 
 .input h1 {
     font-weight: 300;
-    margin-bottom: 10px;
 }
 
 .input p {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    font-size: 20px;
 }
 
 .input button {
+    padding: 0;
     color: white;
     border-radius: 5px;
     border: none;
@@ -199,11 +216,15 @@ header p span {
 }
 
 .contacts article h4 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .contacts article p {
     line-height: 30px;
+}
+
+.contacts article i {
+    margin-left: 10px;
 }
 
 .addres{
