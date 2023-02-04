@@ -5,7 +5,11 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 100px;
+    padding: 30px 150px;
+}
+
+header p {
+    font-size: 25px;
 }
 
 header p span {
@@ -55,4 +59,88 @@ header p span {
     border-radius: 100px;
     font-size: 35px;
     border: none;
+}
+
+/* Section .first */
+
+.first {
+    text-align: center;
+    padding: 40px 300px 40px 300px;
+}
+
+.first h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.first span {
+    margin-top: 10px;
+    border-bottom: 3px solid #21a2b5;
+}
+
+.first p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.first button {
+    border: none;
+    background-color: #454545;
+    border-radius: 100px;
+    color: white;
+    font-size: 20px;
+    padding: 12px 35px 14px 35px;
+}
+
+/* Services */
+
+.services {
+    text-align: center;
+    background-color: #eef0f1;
+    padding: 50px;
+}
+
+.services h1 {
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 400px;
+    height: 550px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card h2 {
+    color: #474748;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 30px 0 5px 0px;
+}
+
+.card p {
+    color: #474748;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 0px 20px 20px 20px;
+}
+
+.card button {
+    border: none;
+    color: white;
+    background-color: #454545;
+    padding: 10px 30px 12px 30px;
+    border-radius: 5px;
+    font-size: 20px;
 }
