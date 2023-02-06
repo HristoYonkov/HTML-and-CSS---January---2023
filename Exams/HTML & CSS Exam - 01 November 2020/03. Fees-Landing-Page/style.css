@@ -271,3 +271,48 @@ header nav ul li a {
 .paragraphs p:nth-child(odd) {
     background-color: #e6e6e6;
 }
+
+/* Footer Section */
+
+.footer {
+    display: flex;
+    padding-right: 230px;
+    padding-left: 115px;
+    padding-bottom: 150px;
+    justify-content: space-between;
+}
+
+.footer article h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    color: #54546d;
+
+}
+
+.footer article p {
+    font-size: 21px;
+    line-height: 26px;
+    color: #565656;
+}
+
+.footer article {
+    width: 70%;
+}
+
+.footer div {
+    display: flex;
+    padding-top: 70px;
+}
+
+.footer div img {
+    height: 150px;
+    width: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #54546d;
+    color: #908fab;
+    font-size: 20px;
+}
