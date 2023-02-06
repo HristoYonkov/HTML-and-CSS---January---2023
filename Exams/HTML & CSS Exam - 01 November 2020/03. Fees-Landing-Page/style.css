@@ -63,11 +63,50 @@ header nav ul li a {
 .taxes-wrapper article {
     border-radius: 12px;
     width: 30%;
+    height: 500px;
+    overflow: hidden;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
 }
 
-.taxes-wrapper article {
-    text-align: center;
-    padding-top: 40px;
+.card-first .top {
+    height: 65%;
+}
+
+.card-first .top h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.card-first .top p {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.card-first button {
+    background-color: #9a5dc6;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 35px;
+    border-radius: 100px;
+}
+
+.card-first .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: #029a3c;
+    height: 35%;
+}
+
+.card-first .bottom h3 {
+    font-size: 30px;
+}
+
+.card-first .bottom p {
+    font-size: 25px;
 }
