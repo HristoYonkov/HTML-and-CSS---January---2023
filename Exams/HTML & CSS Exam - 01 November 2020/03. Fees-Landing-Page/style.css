@@ -276,7 +276,7 @@ header nav ul li a {
 
 .footer {
     display: flex;
-    padding-right: 230px;
+    padding-right: 100px;
     padding-left: 115px;
     padding-bottom: 150px;
     justify-content: space-between;
@@ -296,11 +296,12 @@ header nav ul li a {
 }
 
 .footer article {
-    width: 70%;
+    width: 72%;
 }
 
 .footer div {
     display: flex;
+    justify-content: end;
     padding-top: 70px;
 }
 
