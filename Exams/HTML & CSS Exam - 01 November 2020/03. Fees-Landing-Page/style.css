@@ -207,15 +207,19 @@ header nav ul li a {
     padding-top: 450px;
     padding-left: 230px;
     padding-right: 230px;
+    padding-bottom: 130px;
     text-align: left;
 }
 .check h2 {
+    color: #5a546d;
     font-size: 40px;
     margin-bottom: 25px;
+    font-weight: 500;
 }
 .check p {
+    color: #5e656a;
     font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 /* Table */
@@ -233,11 +237,37 @@ header nav ul li a {
     width: auto;
 }
 
+.paragraphs p {
+    font-size: 25px;
+}
+
 .first {
     position: absolute;
-    right: 20%;
+    right: 27%;
 }
 .second {
     position: absolute;
-    right: 10%;
+    right: 7%;
+}
+
+.paragraphs p {
+    margin: 0;
+    padding: 20px 10px;
+}
+
+.paragraphs p:nth-child(1) {
+    border-top-left-radius: 12px;
+}
+
+.paragraphs p:last-child {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.paragraphs p:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.paragraphs p:nth-child(odd) {
+    background-color: #e6e6e6;
 }
