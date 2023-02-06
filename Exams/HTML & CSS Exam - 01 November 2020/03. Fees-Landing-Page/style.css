@@ -7,11 +7,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 p {
-  font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 header {
@@ -26,6 +26,7 @@ header nav ul {
     gap: 30px;
     font-size: 25px;
 }
+
 header nav ul li a {
     text-decoration: none;
     color: black;
@@ -41,6 +42,8 @@ header nav ul li a {
 
 .taxes h1 {
     display: inline-block;
+    font-size: 35px;
+    color: white;
 }
 
 .taxes img {
@@ -63,7 +66,7 @@ header nav ul li a {
 .taxes-wrapper article {
     border-radius: 12px;
     width: 30%;
-    height: 500px;
+    height: 550px;
     overflow: hidden;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -71,26 +74,35 @@ header nav ul li a {
     padding: 40px 0px 0px 0px;
 }
 
-.card-first .top {
-    height: 65%;
+.top {
+    height: 70%;
 }
 
-.card-first .top h2{
+.top h2 {
     font-size: 35px;
     margin-bottom: 10px;
+    color: #54546d;
 }
 
-.card-first .top p {
+.top p {
     font-size: 25px;
-    margin-bottom: 40px;
+    color: #54546d;
+}
+
+.card-first {
+    position: relative;
 }
 
 .card-first button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #9a5dc6;
     border: none;
     color: white;
     font-weight: bold;
-    padding: 15px 35px;
+    padding: 18px 40px;
     border-radius: 100px;
 }
 
@@ -99,8 +111,14 @@ header nav ul li a {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    background-color: #029a3c;
-    height: 35%;
+    height: 30%;
+    background-image: linear-gradient(to right,
+            #029a3c,
+            #1da94d,
+            #2eb85e,
+            #3dc76f,
+            #4bd680);
+    color: white;
 }
 
 .card-first .bottom h3 {
@@ -109,4 +127,117 @@ header nav ul li a {
 
 .card-first .bottom p {
     font-size: 25px;
+}
+
+.card-second .bottom {
+    background-image: linear-gradient(to right,
+            #56738d,
+            #597d9d,
+            #5c86ad,
+            #5f90be,
+            #629acf);
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-second .top p {
+    padding: 0 30px 30px 30px;
+    line-height: 30px;
+}
+
+.card-third .top p {
+    padding: 0 30px 30px 30px;
+    line-height: 30px;
+}
+
+.card-third .bottom h2 { 
+    font-size: 30px;
+    color: white;
+}
+
+.card-second .bottom h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.card-second .bottom p {
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+}
+
+.card-third .bottom p {
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.divider {
+    border: 1px solid white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.left-bottom {
+    width: 50%;
+    padding: 20px 5px;
+}
+
+.right-bottom {
+    width: 50%;
+    padding: 20px 5px;
+}
+
+.card-third .bottom {
+    background-image: linear-gradient(to right,
+            #4a37a5,
+            #5b48b4,
+            #6b5ac3,
+            #7c6bd2,
+            #8c7de1);
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Check */
+
+.check {
+    padding-top: 450px;
+    padding-left: 230px;
+    padding-right: 230px;
+    text-align: left;
+}
+.check h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.check p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+/* Table */
+
+.paragraphs {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.paragraphs img {
+    display: inline-block;
+    height: 25px;
+    width: auto;
+}
+
+.first {
+    position: absolute;
+    right: 20%;
+}
+.second {
+    position: absolute;
+    right: 10%;
 }
