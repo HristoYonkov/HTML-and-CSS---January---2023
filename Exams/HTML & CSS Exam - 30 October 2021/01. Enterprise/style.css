@@ -1,0 +1,61 @@
+body {
+    font-family: Helvetica, sans-serif;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    position: absolute;
+    width: 80vw;
+    height: 55vh;
+    left: 50%;
+    top: 50%;
+    background-color: #f6f8f9;
+    transform: translate(-50%, -50%);
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.info {
+    width: 40%;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 100;
+    color: #283340;
+}
+
+p {
+    font-size: 25px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    color: #747e88;
+}
+
+.sales {
+    font-size: 25px;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #786eff;
+    color: white;
+    margin-right: 10px;
+}
+
+.more {
+    font-size: 25px;
+    padding: 18px 30px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
