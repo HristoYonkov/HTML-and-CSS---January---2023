@@ -1,1 +1,94 @@
 /* TODO: Add responsive styles here... */
+@media (max-width: 600px) {
+    .navbar.navbar-expand-lg.navbar-light {
+        justify-content: center;
+    }
+
+    .navbar.navbar-expand-lg.navbar-light .navbar-brand {
+        margin: 0;
+    }
+
+    .container-fluid.hero img {
+        display: none;
+    }
+
+    .container-fluid.hero .container h1 {
+        margin: 50px;
+        text-align: center;
+    }
+
+    .container-fluid.hero .container p {
+        text-align: center;
+    }
+
+    article .hero-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    /* ---------- */
+
+    #about-us {
+        text-align: center;
+    }
+
+    .hero-btns.service-btn {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .hero-btns.service-btn a {
+        width: 100%;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row .col-12.col-sm-6.col-lg-4 {
+        max-width: 100%;
+    }
+
+    .service-box {
+        text-align: left;
+    }
+
+    /* about */
+    .about {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .col-12.col-sm-12.col-lg-6 {
+        margin-bottom: 100px;
+    }
+
+    #contact-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact-us .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact-us .hero-btns.contact-btn {
+        display: none;
+    }
+    /* Footer */
+
+    footer .container {
+        width: 80%;
+    }
+
+    footer .contact-nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
