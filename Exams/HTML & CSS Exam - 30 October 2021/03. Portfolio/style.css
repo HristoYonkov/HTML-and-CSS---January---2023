@@ -1,7 +1,9 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;800&display=swap');
 
 body {
     padding: 40px;
+    font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -9,7 +11,8 @@ header {
     position: relative;
     flex-direction: column;
     background-color: #efefef;
-    height: 700px;
+    height: 800px;
+    margin-bottom: 35px;
 }
 
 nav {
@@ -27,6 +30,7 @@ nav i {
 
 .content-wrapper {
     display: flex;
+    margin-right: 105px;
     height: calc(100% - 90px);
 }
 
@@ -59,4 +63,203 @@ nav i {
     border-left: solid 1px black;
 }
 
+/* Intro */
 
+.intro {
+    display: flex;
+    background-color: #efefef;
+    height: 800px;
+    margin-bottom: 35px;
+}
+
+.second-image {
+    padding-top: 80px;
+    padding-left: 150px;
+    width: 40%;
+}
+
+.second-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 300px;
+    width: 60%;
+}
+
+.heading {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.second-divider {
+    width: 80px;
+    border-top: 1px solid black;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+.heading h1 {
+    font-size: 50px;
+}
+
+.heading span {
+    font-weight: 200;
+}
+
+.second-content p {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.icons {
+    font-size: 40px;
+}
+
+.icons i {
+    color: #909090;
+    margin-right: 15px;
+}
+ /* Bg image */
+
+.bg-image {
+    display: flex;
+    background-color: #efefef;
+    height: 800px;
+    margin-bottom: 35px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.bg-image img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Fourth */
+
+.fourth {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #efefef;
+    height: 800px;
+    margin-bottom: 35px;
+    padding-top: 150px;
+}
+
+.fourth-content {
+    width: 30%;
+    padding-top: 100px;
+}
+.fourth-content h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.fourth-content p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fourth-content span {
+    font-weight: 100;
+}
+
+.featured-img img {
+    height: 500px;
+    width: auto;
+
+}
+
+/* Fifth */
+
+.fifth {
+    display: flex;
+    position: relative;
+    background-color: #efefef;
+    height: 800px;
+    justify-content: space-around;
+    gap: 220px;
+    margin-bottom: 35px;
+}
+
+.fifth img {
+    height: 400px;
+    width: auto;
+    margin-top: 200px;
+}
+
+.fifth .one {
+    position: absolute;
+    bottom: 100px;
+    height: 600px;
+    width: auto;
+}
+
+/* Last */
+.last {
+    background-color: #efefef;
+    height: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.last h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+    padding-top: 100px;
+}
+
+.last p {
+    padding: 0 17%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.last span {
+    font-weight: 100;
+}
+
+.inputs {
+    width: 40%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+::placeholder {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.inputs button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.inputs textarea {
+    background-color: transparent;
+}
+
+.first {
+    display: flex;
+    gap: 30px;
+}
+
+.first input {
+    background-color: transparent;
+    width: 50%;
+    padding: 10px;
+}
+
+.bottom {
+    margin-top: 40px;
+}
