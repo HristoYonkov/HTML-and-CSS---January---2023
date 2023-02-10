@@ -1,0 +1,77 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #0c2958;
+    font-weight: 600;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 25px;
+}
+
+header img {
+    height: 40px;
+    width: auto;
+}
+
+/* Dog Section */
+
+.dog {
+    position: relative;
+}
+
+.dog-img {
+    position: absolute;
+    bottom: -113px;
+    right: 150px;
+    height: 900px;
+}
+
+.dog-description {
+    position: absolute;
+    bottom: 340px;
+    left: 490px;
+}
+
+.dog-description h1 {
+    font-size: 90px;
+    line-height: 90PX;
+    color: white;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.dog-description h1 span {
+    font-weight: 100;
+}
+
+.dog-description p {
+    font-size: 20px;
+    width: 400px;
+    color: white;
+    margin-bottom:40px;
+}
+
+.dog-description button {
+    padding: 10px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 100px;
+    color: #ff3c09;
+}
+
+/* Service */
+
+.service {
+    margintop: 40px;
+}
