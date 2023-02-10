@@ -74,11 +74,21 @@ header img {
 
 .service {
     margin-top: 200px;
-    /* text-align: center; */
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
+}
+
+.service h1 {
+    font-size: 60px;
+}
+
+.service p {
+    font-size: 20px;
+    padding: 0 600px;
+    padding-bottom: 30px;
 }
 
 .card-wrapper {
@@ -99,6 +109,12 @@ header img {
     display: flex;
     justify-content: center;
     padding: 50px;
+    position: relative;
+}
+
+.img-wrapper img:last-child {
+    position: absolute;
+    top: 90px;
 }
 
 .card h1 {
@@ -108,7 +124,80 @@ header img {
 }
 
 .card p {
-    /* font-size: 18px; */
-    padding: 0 40px;
+    font-size: 18px;
+    padding: 0 20px;
     margin-bottom: 80px;
+}
+
+/* Carying */
+
+.carying {
+    margin-top: 200px;
+    display: flex;
+    gap: 80px;
+}
+
+.carying-desc {
+    width: 500px;
+    text-align: left;
+    margin-top: 150px;
+}
+
+.carying-desc h1 {
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.carying-desc p {
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.carying-desc button {
+    background-color: #f14333;
+    color: white;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+}
+
+/* why sevtion */
+.final {
+    position: relative;
+}
+
+.why {
+    position: absolute;
+    bottom: 170px;
+}
+
+.why p {
+    color: white;
+    font-size: 30px;
+}
+
+.why h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.why button {
+    margin-top: 20px;
+    background-color: white;
+    color: #f14333;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.why span {
+    font-size: 17px;
+    margin-right: 10px;
+    color: white;
+    letter-spacing: 1px;
 }
