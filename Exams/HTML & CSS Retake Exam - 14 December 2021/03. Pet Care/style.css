@@ -73,5 +73,42 @@ header img {
 /* Service */
 
 .service {
-    margintop: 40px;
+    margin-top: 200px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    gap: 25px;
+}
+
+.card {
+    border: 1px solid #ffdfdd;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.card h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.card p {
+    /* font-size: 18px; */
+    padding: 0 40px;
+    margin-bottom: 80px;
 }
