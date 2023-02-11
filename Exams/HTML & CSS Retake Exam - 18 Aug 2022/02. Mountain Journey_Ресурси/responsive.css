@@ -1,0 +1,36 @@
+@media (max-width: 600px) {
+    header nav {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .team-description-wrapper  ul {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .team-description ul li img {
+        height: 210px;
+        width: auto;
+    }
+
+    .choose-us ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0 80px;
+    }
+
+    .blog-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+}
