@@ -8,13 +8,31 @@
     The site should open correctly in the latest version of Chrome
     Pixel-perfect implementation is NOT required
 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p, a {
+  font-family: "Lato", sans-serif;
+}
+
 a {
     text-decoration: none;
     color: #54606f;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 header {
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +41,7 @@ header {
     padding: 25px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 0px 0px 8px 8px;
+    z-index: 1;
 }
 header img {
     height: 40px;
@@ -44,3 +63,209 @@ nav ul li:last-child a {
     color: white;
 }
 
+.certs {
+    overflow: hidden;
+    position: relative;
+}
+.certs img.bg {
+    height: 700px;
+    width: 100%;
+    opacity: 0.10;
+    transform: scale(1.1);
+}
+
+.certs article {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 250px;
+    gap: 100px;
+    
+}
+
+.certs-description {
+    width: 40%;
+    padding: 20px;
+    background-color: #29394b;
+    border-radius: 10px;
+    color: white;
+}
+
+.certs-description h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.certs-description p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.certs-img img:first-child {
+    height: 300px;
+}
+.certs-img img:last-child {
+    height: 330px;
+}
+
+.certs-img {
+    display: flex;
+    align-items: end;
+}
+
+.certs > p {
+    position: absolute;
+    margin-left: 16%;
+    bottom: 30px;
+}
+
+.diploma {
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+.diploma > h2 {
+    text-align: center;
+    margin: 100px 0 40px 0;
+    font-size: 35px;
+}
+
+.diploma .content {
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    color: #8c959f;
+}
+
+.diploma .content article {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+    background-color: #f4f5f7;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.diploma > p {
+    margin-left: 50%;
+    transform: translate(-50%);
+    text-align: left;
+}
+
+/* Buttons */
+
+.buttons-sect {
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.buttons-sect img {
+    border-radius: 10px;
+    width: 100%;
+    filter: brightness(60%);
+}
+
+.content-btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    top: 25px;
+    width: 75%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    color: white;
+    text-align: center;
+}
+
+.content-btn h2 {
+    font-size: 40px;
+}
+
+.content-btn p {
+    font-size: 25px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.buttons button {
+    font-size: 20px;
+    padding: 10px 40px;
+}
+
+.buttons button:first-child {
+    border: none;
+    border-radius: 10px;
+    color: #4baff8;
+    background-color: white;
+}
+
+.buttons button:last-child {
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+}
+
+.divider {
+    display: inline;
+    height: 40px;
+    border-left: 2px solid #c3c8cd;
+}
+
+
+footer {
+    display: flex;
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    border-top: 1px solid black;
+}
+
+.navigator {
+    padding: 50px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigator ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navigator .img-holder img {
+    height: 50px;
+    width: auto;
+}
+
+.navigator .img-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: auto;
+}
+
+.top-divider {
+    width: 150px;
+    height: 2px;
+    border: 3px solid #4baff8;
+    position: absolute;
+    left: 72%;
+    top: 0px;
+    z-index: 10;
+}
