@@ -1,1 +1,35 @@
 /* TODO: Add media queries */
+
+@media (max-width:600px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    header {
+        padding-bottom: 150px;
+    }
+
+    .icon.style2 {
+        font-size: 27px;
+    }
+
+    header .avatar {
+        font-size: 27px;
+    }
+
+    .thumbnails {
+        flex-direction: column;
+    }
+
+    .thumbnails div {
+        width: 100%;
+    }
+
+    .thumbnails a img {
+        height: 320px;
+    }
+
+    footer {
+        font-size: 25px;
+    }
+}
