@@ -1,0 +1,80 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap%27');
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+span {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+article {
+    width: 550px;
+}
+
+section {
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.first {
+    background-color: #e3f3fd;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 5px 1px rgba(148, 142, 142, 0.75);
+}
+
+.first h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.first p {
+    margin-bottom: 5px;
+}
+
+.first i {
+    color: #4aacf8;
+    margin-right: 12px;
+}
+
+.second {
+    border: 5px solid #44a9f8;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second h2 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.second h2 span {
+    font-size: 40px;
+    color: #44a9f8;
+    font-weight: 600;
+}
+
+.second p {
+    margin-bottom: 20px;
+}
+
+.second button {
+    color: white;
+    background-color: #44a9f8;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 7px;
+}
