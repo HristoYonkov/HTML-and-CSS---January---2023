@@ -23,6 +23,7 @@
 
     .thumbnails div {
         width: 100%;
+        margin-bottom: 2em;
     }
 
     .thumbnails a img {
