@@ -26,12 +26,19 @@ header {
     justify-content: space-between;
 }
 header img {
-    background-color: #ae841e;
     width: 180px;
     padding: 40px;
     position: relative;
     left: 5%;
     top: 60px;
+    background-image: linear-gradient(
+    to bottom,
+    #c8ac53,
+    #ba9a43,
+    #ac8933,
+    #9e7824,
+    #906713
+  );
 }
 
 .navs {
