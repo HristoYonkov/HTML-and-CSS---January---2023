@@ -176,6 +176,7 @@ header img {
 }
 
 .cards > h1 {
+    color: #4e5973;
     font-size: 50px;
     padding: 0px 15%;
     font-weight: 100;
@@ -183,6 +184,7 @@ header img {
 
 .cards > p {
     font-size: 25px;
+    color: #4e5973;
 }
 
 .cards-holder {
