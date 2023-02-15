@@ -1,0 +1,70 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+main {
+    padding: 0 150px;
+}
+
+header.picture {
+    position: relative;
+}
+
+header img {
+    height: 1220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header-design {
+    padding-left: 25px;
+    width: 350px;
+    height: 300px;
+    background: transparent;
+    position: absolute;
+    top: 45px;
+    left: 75px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.header-design h1 {
+    padding-top: 54px;
+    padding-bottom: 15px;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 65px;
+}
+.header-design p {
+    padding-top: 15px;
+    font-size: 25px;
+}
+.first-divider {
+    width: 190px;
+    border-bottom: 2px solid white;
+}
+
+.header-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 460px;
+    height: 400px;
+    position: absolute;
+    bottom: 470px;
+    right: 68px;
+    background-image: linear-gradient(
+        to right,
+        #9d948d, 
+        #c9c7c6
+    );
+    text-align: right;
+    padding: 0 20px 20px 20px;
+}
+
+.header-desc i {
+    font-size: 35px;
+    color: #787878;
+}
+
+.header-desc p {
+    font-size: 26px;
+    color: #f9f0de;
+}
