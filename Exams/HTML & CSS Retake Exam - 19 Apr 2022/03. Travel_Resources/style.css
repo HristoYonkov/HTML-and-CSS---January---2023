@@ -136,6 +136,7 @@ header img {
     text-align: left;
     font-size: 25px;
     line-height: 35px;
+    vertical-align: center;
 }
 
 .descr p i {
@@ -152,3 +153,39 @@ header img {
     padding: 10px 20px;
 }
 
+/* section .cards */
+.cards {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.cards > h1 {
+    font-size: 50px;
+    padding: 0px 15%;
+    font-weight: 100;
+}
+
+.cards > p {
+    font-size: 25px;
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-holder article {
+    width: 270px;
+}
+
+.cards-holder article p {
+    font-size: 20px;
+}
+
+.cards-holder article img {
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    border:  1px solid black;
+    border-radius: 100%;
+}
