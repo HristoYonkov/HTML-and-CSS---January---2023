@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300;400&family=Roboto:wght@100;300;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+main > h1 {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    font-size: 55px;
+    font-weight: 100;
+}
+section {
+    position: absolute;
+    display: flex;
+    width: 70%;
+    gap: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    justify-content: center;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.img {
+    width: 50%;
+}
+
+.img img {
+    width: 100%;
+}
+
+.top h2 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.top p {
+    font-size: 20px;
+    margin-top: 35px;
+}
+.bottom {
+    display: flex;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    font-size: 45px;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-right: 15px;
+    color: #ce5740;
+}
+
+.bottom h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.bottom p {
+    font-size: 20px;
+    margin: 0;
+}
