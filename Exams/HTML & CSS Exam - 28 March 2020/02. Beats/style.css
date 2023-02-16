@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+html {
+    font-family: 'Open Sans', sans-serif
+}
+
+nav {
+    margin-top: 50px;
+}
+a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: #a0a0a0;
+    text-transform: uppercase;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+/* WIRELESS */
+
+.wireless {
+    margin-top: 100px;
+    display: flex;
+    overflow: hidden;
+}
+.wireless img {
+    width: 50%;
+    position: relative;
+    right: -15px;
+}
+
+.descr {
+    width: 50%;
+    padding: 225px 70px 0 225px;
+}
+.descr h1 {
+    font-size: 70px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+}
+.descr p {
+    font-size: 25px;
+    line-height: 50px;
+}
+.descr button {
+    margin-top: 40px;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px 70px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 100px;
+}
+
+/* POWERBEATS */
+
+.powerbeats {
+    margin-top: 50px;
+    padding: 100px;
+    display: flex;
+    gap: 100px;
+    background-color: #fbfcff;
+}
+
+.powerbeats .img {
+    width: 50%;
+    
+}
+
+.powerbeats .img img {
+    float: right;
+}
+
+.power-descr {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.power-descr h1 {
+    font-size: 80px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.power-descr h4 {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: end;
+    padding-right: 38%;
+    margin-bottom: 60px;
+}
+.power-descr h4 span {
+    font-weight: 100;
+}
+
+.power-descr p {
+    font-size: 22px;
+    padding-right: 33%;
+}
+
+.price {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.price p {
+    height: 70%;
+    width: 50%;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.price button {
+    margin-top: 40px;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px 70px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 100px;
+}
+
+.small-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-color: #575757;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.small-logo  article {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.small-logo  article h1 span {
+    font-weight: 100;
+}
+
+.small-logo  article h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.small-logo h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+/* LAST */
+.last-section {
+    display: flex;
+    background-color: #dadada;
+    justify-content: space-between;
+}
+
+.last-section > img {
+    width: 50%;
+}
+
+.last-section article {
+    width: 50%;
+    display: flex;
+}
+.last-section article div {
+    padding: 70px;
+}
+.last-section article div h1 {
+    padding-top: 50px;
+    font-size: 180px;
+    line-height: 200px;
+    text-transform: uppercase;
+}
+
+.last-section article img {
+    width: auto;
+    height: 900px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.last-section article div p span {
+    color: red;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.last-section article div p {
+    font-weight: 100;
+    font-size: 50px;
+    padding-left: 15px;
+    margin-top: 20px;
+    letter-spacing: -5px;
+}
+
+footer {
+    padding: 30px;
+    font-size: 35px;
+    text-align: center;
+    color: #a6a6a6;
+}
