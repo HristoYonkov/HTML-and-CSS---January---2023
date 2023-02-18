@@ -1,0 +1,79 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+
+body {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg-img {
+    width: 100%;
+    position: absolute;
+    top: -225px;
+    filter: brightness(35%);
+}
+
+article {
+    position: absolute;
+    top: 250px;
+    left: 40%;
+}
+
+.form {
+    background-color: white;
+    border-radius: 12px;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+article h1 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 15px;
+}
+
+.form .input input {
+    border: none;
+    font-size: 20px;
+
+}
+.form .input {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+::placeholder {
+    padding-left: 100px;
+}
+
+.form button {
+    background-color: #d41872;
+    border: none;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px 70px;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+
+.form i {
+    position: absolute;
+    font-size: 25px;
+    padding-left: 40px;
+    
+}
