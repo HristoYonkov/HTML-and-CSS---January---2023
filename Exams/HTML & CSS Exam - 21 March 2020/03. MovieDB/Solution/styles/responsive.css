@@ -1,0 +1,36 @@
+@media (max-width: 600px) {
+    .main-movie ul li:first-child {
+        display: none;
+    }
+
+    .ytp-chrome-top-buttons {
+        display: none;
+
+    }
+
+    .main-movie {
+        overflow: hidden;
+    }
+
+    .main-movie ul{
+        width: unset;
+    }
+    .main-movie ul li {
+        width: 90%;
+        padding: 0;
+    }
+
+    .movie-list {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .movie-list .movie {
+        width: 85%;
+        height: auto;
+    }
+
+    .movies {
+        margin-bottom: 100px;
+    }
+}
