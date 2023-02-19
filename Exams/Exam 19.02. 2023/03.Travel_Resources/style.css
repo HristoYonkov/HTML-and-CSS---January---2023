@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap%27');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+body {
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #86848e;
+    font-size: 20px;
+}
+header {
+    position: relative;
+}
+header > div {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+header img {
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    position: absolute;
+    top: 0px;
+}
+
+.container nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding: 0px 350px;
+    align-items: center;
+}
+nav p {
+    font-size: 30px;
+    font-weight: 800;
+}
+.container nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.first-btn {
+    color: white;
+    background-color:#370511;
+    padding: 5px 30px;
+    border-radius: 100px;
+}
+.container article {
+    padding-left: 350px;
+}
+.container article h1 {
+    font-size: 60px;
+}
+.container article h4 {
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.container article p {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+
+/* main */
+
+main {
+    text-align: center;
+}
+main h2 {
+    font-size: 40px;
+    margin-top: 70px;
+}
+main h3 {
+    color: #b1b4b7;
+}
+
+.first-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 550px;
+    margin-top: 40px;
+}
+.first-cards article {
+    width: 350px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.first-cards article div {
+    height: 50%;
+    overflow: hidden;
+}
+.first-cards img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.first-cards h1 {
+    padding: 15px;
+    font-size: 25px;
+}
+.first-cards p {
+    padding: 0 30px;
+    font-size: 14px;
+    text-align: left;
+}
+.first-cards button {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 40px;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 2px solid #c7babd;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    background-color: #000000;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 350px;
+}
+.holder {
+    display: flex;
+    gap: 120px;
+    text-align: left;
+}
+.holder ul li {
+    padding: 10px 0;
+    color: #b6babb;
+}
+footer h1 {
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.icons {
+    text-align: left;
+}
+
+.icons p {
+    color: #b6babb;;
+}
+.items {
+    display: flex;
+    margin-top: 10px;
+    font-size: 22px;
+    justify-content: space-between;
+}
