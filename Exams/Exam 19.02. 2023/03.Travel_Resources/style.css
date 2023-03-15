@@ -92,6 +92,9 @@ main h3 {
     height: 550px;
     margin-top: 40px;
 }
+.first-cards:last-of-type {
+    margin-bottom: 100px;
+}
 .first-cards article {
     width: 350px;
     border-radius: 12px;
